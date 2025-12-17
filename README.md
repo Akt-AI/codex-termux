@@ -1,4 +1,4 @@
-Here’s a **Termux install script** that builds **Codex CLI from source (Rust)** (recommended on Android because the npm install path can break on `android` due to the ripgrep dependency). ([GitHub][1])
+**Termux install script** that builds **Codex CLI from source (Rust)** (recommended on Android because the npm install path can break on `android` due to the ripgrep dependency). ([GitHub][1])
 It defaults to the **latest stable tag `rust-v0.73.0`** (current “Latest” release on GitHub). ([GitHub][2])
 
 ```bash
@@ -131,7 +131,7 @@ Run:
 ./install_codex_termux.sh --configure-apikey
 ```
 
-If you want, I can tweak the script to automatically select the newest **stable** `rust-v*` tag (skipping `-alpha` tags) by scraping the releases page. ([GitHub][2])
+For tweak the script to automatically select the newest **stable** `rust-v*` tag (skipping `-alpha` tags) by scraping the releases page. ([GitHub][2])
 
 [1]: https://github.com/microsoft/vscode-ripgrep/issues/76?utm_source=chatgpt.com "Support system ripgrep on Android (Termux) · Issue #76"
 [2]: https://github.com/openai/codex/releases "Releases · openai/codex · GitHub"
